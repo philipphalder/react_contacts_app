@@ -78,6 +78,7 @@
                 return (
                     <div className="contacts">
                         <input type="text" placeholder="Search..." className="search-field" onChange={this.handleSearch} />
+                        <h5>*search by name</h5>
                         <ul className="contacts-list">
                             {
                                this.state.displayedContacts.map(function(el) {
